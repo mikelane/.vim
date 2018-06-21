@@ -27,5 +27,6 @@ nnoremap k gk
 let mapleader=","       " leader is comma
 " jk is escape
 inoremap jk <esc>
-
+" toggle gundo
+nnoremap <leader>u :GundoToggle<CR>
 

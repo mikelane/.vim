@@ -25,3 +25,6 @@
 [submodule "pack/plugins/start/dockerfile.vim"]
 	path = pack/plugins/start/dockerfile.vim
 	url = https://github.com/ekalinin/dockerfile.vim
+[submodule "pack/plugins/start/gundo"]
+	path = pack/plugins/start/gundo
+	url = http://github.com/sjl/gundo.vim.git

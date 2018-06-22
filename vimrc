@@ -30,3 +30,6 @@ inoremap jk <esc>
 " toggle gundo
 nnoremap <leader>u :GundoToggle<CR>
 
+" Keyboard
+set backspace=indent,eol,start " backspace over everything in insert mode
+

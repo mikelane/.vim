@@ -31,3 +31,6 @@
 [submodule "pack/plugins/start/vim-markdown"]
 	path = pack/plugins/start/vim-markdown
 	url = https://github.com/plasticboy/vim-markdown
+[submodule "pack/plugins/start/vim-indent-guides"]
+	path = pack/plugins/start/vim-indent-guides
+	url = https://github.com/nathanaelkane/vim-indent-guides

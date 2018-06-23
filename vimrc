@@ -11,6 +11,11 @@ filetype indent on      " load filetype-specific indent files
 set wildmenu            " visual autocomplete for command menu
 set lazyredraw          " redraw only when we need to.
 set showmatch           " highlight matching [{()}]
+" The colorscheme
+colorscheme base16-default-dark
+" Access colors present in 256 colorspace
+let base16colorspace=256
+set termguicolors
 
 " Searching
 set incsearch           " search as characters are entered

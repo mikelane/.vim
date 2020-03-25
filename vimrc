@@ -49,6 +49,11 @@ nnoremap <leader>u :GundoToggle<CR>
 " Keyboard
 set backspace=indent,eol,start " backspace over everything in insert mode
 
+" vim-latex
+let g:tex_flavor='latex'
+let g:Tex_DefaultTargetFormat='pdf'
+let g:Tex_CompileRule_pdf='xelatex --interaction=nonstopmode $*'
+
 " Nerdcommenter
 " Add spaces after comment delimiters by default
 let g:NERDSpaceDelims = 1

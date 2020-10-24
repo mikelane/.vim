@@ -82,3 +82,7 @@ function! <SID>StripTrailingWhitespaces()
     call cursor(l, c)
 endfunction
 
+" number of spaces per indentation level: a number or 'auto' (use
+" softtabstop)
+" default: 'auto'
+let g:prettier#config#tab_width = 2

@@ -17,7 +17,8 @@ set lazyredraw          " redraw only when we need to.
 set showmatch           " highlight matching [{()}]
 
 " The colorscheme
-colorscheme base16-default-dark
+" colorscheme base16-default-dark
+colorscheme monokai_pro
 
 " Access colors present in 256 colorspace
 set background=dark

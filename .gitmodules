@@ -61,3 +61,6 @@
 [submodule "pack/plugins/start/vim-monokai-pro"]
 	path = pack/plugins/start/vim-monokai-pro
 	url = https://github.com/phanviet/vim-monokai-pro
+[submodule "pack/plugins/start/vim-cucumber"]
+	path = pack/plugins/start/vim-cucumber
+	url = https://github.com/tpope/vim-cucumber

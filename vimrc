@@ -15,6 +15,8 @@ filetype plugin on
 set wildmenu            " visual autocomplete for command menu
 set lazyredraw          " redraw only when we need to.
 set showmatch           " highlight matching [{()}]
+set statusline=%<%f\ %h%m%r%{kite#statusline()}%=%-14.(%l,%c%V%)\ %P
+set laststatus=2
 
 " The colorscheme
 " colorscheme base16-default-dark

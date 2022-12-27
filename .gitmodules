@@ -25,9 +25,6 @@
 [submodule "pack/plugins/start/dockerfile.vim"]
 	path = pack/plugins/start/dockerfile.vim
 	url = https://github.com/ekalinin/dockerfile.vim
-[submodule "pack/plugins/start/gundo"]
-	path = pack/plugins/start/gundo
-	url = http://github.com/sjl/gundo.vim.git
 [submodule "pack/plugins/start/vim-markdown"]
 	path = pack/plugins/start/vim-markdown
 	url = https://github.com/plasticboy/vim-markdown
@@ -70,3 +67,9 @@
 [submodule "pack/plugins/start/fzf"]
 	path = pack/plugins/start/fzf
 	url = https://github.com/junegunn/fzf
+[submodule "pack/plugins/start/gundo"]
+	path = pack/plugins/start/gundo
+	url = git@github.com:sjl/gundo.vim.git
+[submodule "pack/plugins/start/vim-zsh"]
+	path = pack/plugins/start/vim-zsh
+	url = https://github.com/chrisbra/vim-zsh

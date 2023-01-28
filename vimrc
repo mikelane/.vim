@@ -21,7 +21,9 @@ set nofoldenable
 
 " The colorscheme
 " colorscheme base16-default-dark
-colorscheme monokai_pro
+" colorscheme monokai_pro
+let g:gruvbox_contrast_dark = 'hard'
+colorscheme gruvbox
 
 " Access colors present in 256 colorspace
 set background=dark

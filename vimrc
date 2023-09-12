@@ -92,3 +92,7 @@ endfunction
 " softtabstop)
 " default: 'auto'
 let g:prettier#config#tab_width = 2
+
+" Set the filetype based on the file's extension, overriding any
+" 'filetype' that has already been set
+au BufRead,BufNewFile config set filetype=dosini
